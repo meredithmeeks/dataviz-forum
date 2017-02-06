@@ -6,8 +6,9 @@ output: html_document
 tag: "guns"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r}
+ggplot_gunsales(df)
+gun_sales <- analysis()
 ```
 
 ## R Markdown
